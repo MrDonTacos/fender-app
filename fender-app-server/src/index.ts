@@ -11,10 +11,12 @@ import MyDatabase from "./dataSources/UserDataSource"
 
 async function bootstrap() 
 {
+    const path = __dirname + "/fender-app"
+
     const knex = {
         client: 'sqlite3', // or 'better-sqlite3'
         connection: {
-          filename: './data/fender-app',
+          filename: path,
         },
       };
 
