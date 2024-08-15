@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="form-group">
+        <form [formGroup]="loginControl" (ngSubmit)="onRegister()">
+            <h1>Register Now!</h1>
+            <label for="username"> username </label>
+            <input id="username" formControlName="username" type="text">
+            <label for="email"> email </label>
+            <input id="email" formControlName="email" type="email">
+            <label for="password"> password </label>
+            <input id="password" formControlName="password" type="password">
+            <button type="submit"  [disabled]="!loginControl.valid">Register</button>
+            <div><a routerLink="/login">Already have an account? Log In</a></div>
+        </form>
+    </div>
+</div>
+<router-outlet></router-outlet>

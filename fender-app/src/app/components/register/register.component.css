@@ -1,0 +1,22 @@
+* {
+    margin: 5%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    width: 40vw;
+    background: repeat url("../../../assets/images/rick-bk.jpeg");
+}
+
+.container form{
+    background-color: #8e8e8e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+}

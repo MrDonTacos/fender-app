@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+}
+
+.card-container {
+    width: 40%;
+}
+
+.btn-round {
+    border-radius: 50%;
+}

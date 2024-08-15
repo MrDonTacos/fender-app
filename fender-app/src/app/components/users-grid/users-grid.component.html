@@ -1,0 +1,15 @@
+<div class="d-flex flex-column">
+    <div>
+        <table>
+          <tr>
+            <th>ID</th>
+            <th>username</th>
+            <th>email</th>
+          </tr>
+          <tr *ngFor="let user of users" [user]="user"></tr>
+        </table>
+    </div>
+    <div class="w-25 align-self-end">
+        <button (click)="refresh()" type="button" class="btn btn-secondary mt-4 align-item-right w-25">Refresh</button>
+    </div>
+</div>

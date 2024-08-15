@@ -1,0 +1,15 @@
+<!-- <li>card properties</li>
+<li>{{character.name}}</li>
+<li>{{character.status}}</li> -->
+
+<div class="card m-5 p-3 rounded" style="width: 18rem;">
+    <img [src]="character.image" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{character.name}}</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Status: {{character.status}}</li>
+      <li class="list-group-item">Species: {{character.species}}</li>
+      <li class="list-group-item">Location: {{character.origin.name}}</li>
+    </ul>
+</div>

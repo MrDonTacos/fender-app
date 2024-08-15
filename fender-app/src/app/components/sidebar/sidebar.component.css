@@ -1,0 +1,11 @@
+/* .nav-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+:host > li {
+    flex: 1;
+    border: 1px black solid;
+    margin: 5% 0 5% 0;
+    height: 50%;
+} */
