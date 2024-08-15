@@ -12,4 +12,4 @@ Steps to recreate the database used for store users
 1. Inside fender-app-server/src/ create a folder *data* , it should look like this fender-app-server/src/data
 2. Inside this folder run the next commands (Install sqlite3 first)
       - sqlite3 fender-app
-      - CREATE TABLE users( id INTEGER PRIMARY KEY DESC, name TEXT, password TEXT, email TEXT);
+      - CREATE TABLE users( id INTEGER PRIMARY KEY, name TEXT, password TEXT, email TEXT);
